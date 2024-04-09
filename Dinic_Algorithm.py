@@ -32,15 +32,15 @@ class Dinics:
         # graph after the flow has been maximized
         
 
-    def add_edge(self, from_node, to, capacity):
+    def add_edge(graph, from_node, to, capacity):
         # Adds a directed edge to the flow network
 
-    def bfs(self):
+    def bfs(graph):
         # Breadth-first search to update levels of nodes, returns True if sink is reachable
 
-    def dfs(self, at, next, flow):
+    def dfs(graph, at, next, flow):
         # Depth-first search to find blocking flow, returns flow value
 
-    def dinic_Algorithm(self):
+    def dinic_Algorithm(graph):
         # Main function to execute Dinic's algorithm
 
