@@ -23,7 +23,7 @@ Download the project files to a local directory.
 
 3. Run the Script: Execute the script using Python.
 
-python Dinic.py
+python3 Dinic.py
 
 View the Output: After running the script, the maximum flow from the source to the sink node will be printed to the console.
 Example .graph File Content
