@@ -53,12 +53,12 @@ Any issues or questions can be raised as issues within the project's repository,
 ## Authors
 
 ### Max Flow Group 2
-Alex 
-Kittson
-Rodney
-Sean
-Travis 
-Tripp 
+Alex Montgomery
+Brooks Seale
+Kittson Hamill
+Rodney Wade
+Sean Robertson
+Tripp Davies 
 
 
 ## Acknowledgments
