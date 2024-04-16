@@ -1,0 +1,56 @@
+Pseudo Code for Dinic's Algorithm(Tripp Davies)
+
+Class Graph
+    Constructor(vertices)
+        Set V to vertices
+        Initialize graph with empty adjacency lists for each vertex
+        
+    Method add_edge(u, v, capacity)
+        Add forward edge (v, capacity, reverse index) to graph[u]
+        Add reverse edge (u, 0, forward index) to graph[v]
+
+    Method BFS(source, sink, level)
+        Set all levels to -1
+        Set level of source to 0
+        Initialize queue and enqueue source
+        While queue is not empty
+            u = dequeued element
+            For each (v, cap, rev) in graph[u]
+                If level[v] is -1 and cap > 0
+                    Set level[v] to level[u] + 1
+                    Enqueue v
+        Return true if level[sink] is not -1
+
+    Method DFS(u, sink, flow, level)
+        If u is sink
+            Return flow
+        For each (v, cap, rev) in graph[u]
+            If level[v] == level[u] + 1 and cap > 0
+                pushed = DFS(v, sink, min(flow, cap), level)
+                If pushed > 0
+                    Adjust capacities in graph[u] and graph[v]
+                    Return pushed
+        Return 0
+
+    Method Dinic(source, sink)
+        maxFlow = 0
+        While BFS to build level graph
+            Do
+                flow = DFS(source, sink, infinity, level)
+                maxFlow += flow
+            While flow > 0
+        Return maxFlow
+
+NOTE: This Pseudo Code is long for a presentaton. When putting the pseudo code on the ppt, I think the best thing to do 
+is just have this.
+
+Method Dinic(source, sink)
+        maxFlow = 0
+        While BFS to build level graph
+            Do
+                flow = DFS(source, sink, infinity, level)
+                maxFlow += flow
+            While flow > 0
+        Return maxFlow
+
+We can explain what BFS and DFS is in the presentaton

@@ -1,0 +1,49 @@
+Tripp Davies
+Network Routing:
+    Bandwidth Maximization: Ensuring maximum data transmission rates between servers or network nodes.
+    
+    Load Balancing: Distributing network traffic evenly across multiple paths to avoid overloading any single node.
+    
+    Fault Tolerance Planning: Determining alternate paths for data transmission in case of node or path failures.
+
+Bipartite Matching:
+    Job Assignment: Matching employees to jobs based on skills and job requirements.
+
+    School Admissions: Assigning students to schools based on preferences and school capacity.
+
+    Organ Matching: Pairing organ donors with compatible recipients in transplant networks.
+
+Circulation with Demands:
+    Resource Distribution: Allocating materials or products to various parts of a manufacturing process.
+
+    Supply Chain Management: Ensuring that each retail outlet receives the necessary inventory from distribution centers.
+
+    Utility Services: Distributing utilities like water or gas to various consumers based on demand.
+
+Project Selection:
+    Capital Budgeting: Selecting which projects to fund under capital constraints to maximize return.
+
+    R&D Investment: Allocating funds across different research and development projects.
+
+    Portfolio Management: Choosing investments to balance risk and return within financial portfolios.
+
+Sports Scheduling:
+    League Scheduling: Developing fair and balanced schedules for sports leagues where teams face each other with minimal scheduling conflicts.
+    
+    Tournament Planning: Organizing the sequence of matches in a tournament to manage time and resources effectively.
+    
+    Venue Allocation: Assigning games to venues considering geographic constraints and audience capacity.
+
+Image Segmentation:
+    Medical Imaging: Separating different tissues in medical scans for better diagnosis and treatment planning.
+
+    Object Recognition: Identifying and isolating objects within an image for further analysis in automation and robotics.
+
+    Satellite Image Processing: Segmenting areas of interest in satellite images for environmental monitoring and land use planning.
+
+Water Flow Management:
+    Irrigation Systems: Optimizing the distribution of water in agricultural settings to maximize crop yield.
+
+    Urban Water Distribution: Managing the flow of water through municipal systems to ensure steady supply to all neighborhoods.
+    
+    Flood Control: Regulating water levels in channels and reservoirs to prevent flooding.N
