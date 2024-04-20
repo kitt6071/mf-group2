@@ -1,3 +1,5 @@
+# This is the code for the graph creator. It generates random graphs of specified sizes.
+# The graphs are saved to the graphs subdirectory.
 import random
 import os
 import argparse
@@ -22,7 +24,6 @@ def generate_random_graph(size):
                 row.append(random.randint(1, 20))
         graph.append(row)
     return graph
-
 
 def save_graph_to_file(graph, filename):
     """Save the graph to a file in the graphs subdirectory."""

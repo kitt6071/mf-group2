@@ -101,8 +101,6 @@ def read_graph_from_file(fileName):
     # Return graph object
     return graph
 
-# Example usage: Will most likely need to change as project gets more complex.
-
 
 if __name__ == "__main__":
     # Check if a graph file path is provided as a command-line argument

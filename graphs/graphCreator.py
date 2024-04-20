@@ -1,3 +1,5 @@
+# This is the code for the graph creator. It generates random graphs of specified sizes.
+# The graphs are saved to the graphs subdirectory.
 import random
 import os
 

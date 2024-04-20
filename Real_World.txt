@@ -1,4 +1,3 @@
-Tripp Davies
 Network Routing:
     Bandwidth Maximization: Ensuring maximum data transmission rates between servers or network nodes.
     

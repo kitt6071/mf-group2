@@ -100,9 +100,8 @@ def read_graph_from_file(fileName):
     # Return graph object
     return graph
 
-# Example usage: Will most likely need to change as project gets more complex.
 
-graph = read_graph_from_file('/Users/brooksseale/Project02/mf-group2/BrooksSeale/graphs/size9.graph') # *** Change this to match your file path ***
+graph = read_graph_from_file('graphs/size4.graph') # *** Change this to match your file path ***
 source = 0 # Assumes source vertex is vertex 0
 sink = graph.V - 1 # Assumes sink vertex is last vertex in graph
 maxFlow = graph.dinics_algorithm(source, sink)

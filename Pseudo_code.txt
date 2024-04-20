@@ -1,4 +1,4 @@
-Pseudo Code for Dinic's Algorithm(Tripp Davies)
+Pseudo Code for Dinic's Algorithm
 
 Class Graph
     Constructor(vertices)
